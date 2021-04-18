@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+    body{
+        font-family:"arial"
+    }
+    
+
+.pokeman-card-container{
+    background:linear-gradient(to right,#eee83b,#5a5a5a);
+    width:350px;
+    height:auto;
+    margin:10%;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px black;
+    
+}
+.image{
+    width:200px;
+    height:200px;
+}
+.background{
+    text-align:center;
+    background:linear-gradient(to right,#535900,#66741d);
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.pokeman-name{
+    text-align:center;
+    font-size:25px;
+    padding:10px;
+    font-weight:lighter;
+}
+.pokeman-logo{
+    text-align: center;
+    font-size:15px;
+    padding:20px;
+}
+.pokeman-stats > p{
+    letter-spacing:1px;
+}
+.pokeman-type{
+    background-color: black;
+    padding:7px;
+    color:white;
+    border-radius:5px;
+    width: 100px;
+    display:block;
+    text-align:center;
+    position:relative;
+    top:-80px;    
+
+
+
+
+
+}
+.content{
+    background: linear-gradient(to right,#b549b1,#ead93d);
+    padding:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.pokeman-logo:hover{
+background:darkorange;
+}
+.pokeman-type:hover{
+    background:darkorange;
+}
